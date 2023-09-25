@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+  border: 5px solid white;
+}
+
+--root{
+    --back: rgb(77, 92, 80);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infoarea{
+    font-size: 24px;
+    align-self: start
+}
